@@ -5,6 +5,7 @@
 //  Created by Wolf Dieter Dallinger on 20.06.22.
 //
 
+import LockApp
 import SwiftUI
 
 @main

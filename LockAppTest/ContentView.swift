@@ -9,8 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Form {
+                NavigationLink("Standard") {
+                    Standard()
+                }
+                NavigationLink(".unlockOnFirstStart()") {
+                    UnlockOnFirstStart()
+                }
+                NavigationLink(".unlockWithoutAuthentication()") {
+                    UnlockWithoutAuthentication()
+                }
+                NavigationLink(".unlockWithoutAuthenticationIfPasswordNotSet()") {
+                    UnlockWithoutAuthenticationIfPasswordNotSet()
+                }
+            }
+            .navigationTitle("LockAppTest")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
