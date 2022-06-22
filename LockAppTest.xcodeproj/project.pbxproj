@@ -11,10 +11,7 @@
 		79916DCD285FDB2B00F6AA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79916DCC285FDB2B00F6AA2E /* Assets.xcassets */; };
 		79916DD0285FDB2B00F6AA2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79916DCF285FDB2B00F6AA2E /* Preview Assets.xcassets */; };
 		79916DDE285FDFD900F6AA2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79916DDD285FDFD900F6AA2E /* ContentView.swift */; };
-		79916DE0285FE20F00F6AA2E /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79916DDF285FE20F00F6AA2E /* Standard.swift */; };
-		79916DE2285FE23900F6AA2E /* UnlockOnFirstStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79916DE1285FE23900F6AA2E /* UnlockOnFirstStart.swift */; };
-		79916DE4285FE24500F6AA2E /* UnlockWithoutAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79916DE3285FE24500F6AA2E /* UnlockWithoutAuthentication.swift */; };
-		79916DE6285FE25400F6AA2E /* UnlockWithoutAuthenticationIfPasswordNotSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79916DE5285FE25400F6AA2E /* UnlockWithoutAuthenticationIfPasswordNotSet.swift */; };
+		79916DE0285FE20F00F6AA2E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79916DDF285FE20F00F6AA2E /* DetailView.swift */; };
 		79916DE92861D91200F6AA2E /* LockApp in Frameworks */ = {isa = PBXBuildFile; productRef = 79916DE82861D91200F6AA2E /* LockApp */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +21,7 @@
 		79916DCC285FDB2B00F6AA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79916DCF285FDB2B00F6AA2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79916DDD285FDFD900F6AA2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		79916DDF285FE20F00F6AA2E /* Standard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standard.swift; sourceTree = "<group>"; };
-		79916DE1285FE23900F6AA2E /* UnlockOnFirstStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockOnFirstStart.swift; sourceTree = "<group>"; };
-		79916DE3285FE24500F6AA2E /* UnlockWithoutAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockWithoutAuthentication.swift; sourceTree = "<group>"; };
-		79916DE5285FE25400F6AA2E /* UnlockWithoutAuthenticationIfPasswordNotSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockWithoutAuthenticationIfPasswordNotSet.swift; sourceTree = "<group>"; };
+		79916DDF285FE20F00F6AA2E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +57,7 @@
 			children = (
 				79916DC8285FDB2A00F6AA2E /* LockAppTestApp.swift */,
 				79916DDD285FDFD900F6AA2E /* ContentView.swift */,
-				79916DDF285FE20F00F6AA2E /* Standard.swift */,
-				79916DE1285FE23900F6AA2E /* UnlockOnFirstStart.swift */,
-				79916DE3285FE24500F6AA2E /* UnlockWithoutAuthentication.swift */,
-				79916DE5285FE25400F6AA2E /* UnlockWithoutAuthenticationIfPasswordNotSet.swift */,
+				79916DDF285FE20F00F6AA2E /* DetailView.swift */,
 				79916DCC285FDB2B00F6AA2E /* Assets.xcassets */,
 				79916DCE285FDB2B00F6AA2E /* Preview Content */,
 			);
@@ -157,11 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79916DE6285FE25400F6AA2E /* UnlockWithoutAuthenticationIfPasswordNotSet.swift in Sources */,
-				79916DE4285FE24500F6AA2E /* UnlockWithoutAuthentication.swift in Sources */,
 				79916DC9285FDB2A00F6AA2E /* LockAppTestApp.swift in Sources */,
-				79916DE0285FE20F00F6AA2E /* Standard.swift in Sources */,
-				79916DE2285FE23900F6AA2E /* UnlockOnFirstStart.swift in Sources */,
+				79916DE0285FE20F00F6AA2E /* DetailView.swift in Sources */,
 				79916DDE285FDFD900F6AA2E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

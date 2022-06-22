@@ -1,5 +1,5 @@
 //
-//  UnlockOnFirstStart.swift
+//  DetailView.swift
 //  LockAppTest
 //
 //  Created by Wolf Dieter Dallinger on 20.06.22.
@@ -8,25 +8,25 @@
 import LockApp
 import SwiftUI
 
-struct UnlockOnFirstStart: View {
+struct DetailView: View {
     @IsLocked private var isLocked
+    let title: String
     
     var body: some View {
         Form {
             Text(isLocked ? "Locked" : "Unlocked")
         }
-        .navigationTitle(Text("UnlockOnFirstStart"))
+        .navigationTitle(Text(title))
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarTrailing) {
                 LockButton()
             }
         }
-        .unlockOnFirstStart()
     }
 }
 
-struct UnlockOnFirstStart_Previews: PreviewProvider {
+struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        UnlockOnFirstStart()
+        DetailView(title: "Standard")
     }
 }
