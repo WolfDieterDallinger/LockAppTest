@@ -15,9 +15,9 @@ struct ContentView: View {
                     NavigationLink("Standard") {
                         DetailView(title: "Standard")
                     }
-                    NavigationLink(".unlockOnFirstStart()") {
-                        DetailView(title: ".unlockOnFirstStart()")
-                            .unlockOnFirstStart()
+                    NavigationLink(".isUnlockedByDefault()") {
+                        DetailView(title: ".isUnlockedByDefault()")
+                            .isUnlockedByDefault()
                     }
                     NavigationLink(".unlockWithoutAuthentication()") {
                         DetailView(title: ".unlockWithoutAuthentication()")
